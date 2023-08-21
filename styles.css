@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*{
+  border: .75px solid orange;
+}
+
+
+.random-img {
+  border: 2px blue solid;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.image-container {
+  background-color: slategray;
+  padding: 1rem 2rem;
+}
